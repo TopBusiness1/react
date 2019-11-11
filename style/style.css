@@ -1,0 +1,101 @@
+/* header top */
+.affix {
+  top:0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+/* default style */
+.header-text {
+  font-size: 30px;
+  color:white !important;
+}
+
+.default-content {
+  font-size: 20px;
+}
+.header-bar{
+  background: url('img/pic_mountain.jpg');
+  background-repeat: repeat-y;
+  background-position: right top;
+  height:52px;
+}
+.header_title{
+  font-size: 30px;
+  color: #E6FF62;
+  font-style: oblique;
+  font-weight: 900;
+  font-variant: normal;
+  text-shadow: 1px 1px 5px black;
+}
+.navbar-info{
+  background: linear-gradient(#E6E6E6, #FFFFFF, #E6E6E6);
+}
+.navbar {
+    border-radius: 0px;
+}
+.error {
+  color: red;
+}
+
+.msg {
+  color: #707B7C;
+}
+/* footer style */
+.footer_group{
+  background-color: #58616B;
+}
+/* search input */
+form.form-search input[type=text] {
+  width: 300px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('img/icons/searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 8px 20px 8px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+form.form-search input[type=text]:focus {
+  width: 80%;
+}
+/* styles */
+.container{
+  padding: 20px 20px;
+}
+th,td{
+  text-align:center;
+  vertical-align: middle!important;
+}
+.quantity{
+  width:195px;
+  background-color:transparent;
+  border:none;
+  text-align: center;
+}
+.product_name{
+  margin-left:5%;
+}
+/* card panel */
+.panel-body{
+  height: 200px;
+  overflow: auto;
+}
+.panel-footer{
+  background-color: #E6E6E6;
+}
+/* w3 css add */
+
+.w3-card,.w3-card-2{
+  box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+.w3-card-4,.w3-hover-shadow:hover{
+  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+}
